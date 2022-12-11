@@ -1,0 +1,54 @@
+.note {
+  background-color: #f4f4f4;
+  color: #ffff;
+  border: 3px solid #ffff;
+
+  margin-top: 15px;
+  /* position: absolute;
+    right: 1000px;
+    left: 30px; */
+
+  margin: 12px 10px;
+  border-radius: 13px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  float: left;
+  margin-left: 10px;
+  width: 430px;
+}
+
+.note-h {
+  color: rgb(245, 245, 109);
+  text-shadow: 2px 3px white;
+  margin: 5px 12px 0px 14px;
+  font-family: "Patrick Hand", cursive;
+
+  font-size: 30px;
+  border-top: 3px solid #1ee93f;
+  border-radius: 10px;
+  padding: 3px 10px;
+  /* width: 300px; */
+}
+
+.note-p {
+  color: rgb(142, 124, 124);
+  margin: 5px 12px 15px 14px;
+  font-family: "Shadows Into Light", cursive;
+
+  font-size: 18px;
+  padding: 3px 10px;
+  max-width: fit-content;
+  width: 340px;
+  font-weight: 600;
+}
+
+.buttonn {
+  color: rgb(39, 205, 246);
+  background-color: #f4f4f4;
+  float: right;
+  width: 40px;
+  font-weight: 800;
+  border: none;
+
+  border-radius: 20px;
+  margin: 0px 5px 4px;
+}

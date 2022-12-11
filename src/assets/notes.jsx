@@ -1,16 +1,20 @@
 import React from "react";
+import "./CSS/notes.css";
+import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 
-import "./style.css";
-export default function Note() {
+export default function Note(props) {
+  function deletee() {
+    props.funct(props.id);
+  }
+
   return (
     <div>
       <div className="note">
-        <h4 className="note-h" contentEditable="True" autoCorrect="false">
-          Heading
-        </h4>
-        <p className="note-p" contentEditable="True" autoCorrect="false">
-          Notes
-        </p>
+        <h4 className="note-h">{props.head} </h4>
+        <p className="note-p">{props.para} </p>
+        <button className="buttonn" onClick={deletee}>
+          <CheckCircleOutlineIcon />
+        </button>
       </div>
     </div>
   );

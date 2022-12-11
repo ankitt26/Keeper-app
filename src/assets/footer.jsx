@@ -1,16 +1,12 @@
 import React from "react";
-import "./style.css";
+
+import "./CSS/footer.css";
 
 let year = new Date().getFullYear();
 export default function Foot() {
   return (
-    <div>
-      <div className="foot">
-        <h4 className="copy">
-          <span id="cc">© </span>
-          {year} Copyright
-        </h4>
-      </div>
+    <div className="footer">
+      <h4 className="copy"> ©️ {year} Copyright</h4>
     </div>
   );
 }

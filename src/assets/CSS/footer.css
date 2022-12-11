@@ -1,0 +1,19 @@
+.footer {
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.copy {
+  color: rgb(105, 114, 114);
+  background-color: antiquewhite;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  float: bottom;
+  font-family: "Patrick Hand", cursive;
+  text-align: center;
+}

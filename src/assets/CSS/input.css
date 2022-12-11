@@ -1,0 +1,44 @@
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: pink;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138 137 137);
+}
+
+form input,
+form textarea {
+  background-color: pink;
+  color: #fff;
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: "Marhey", cursive;
+  resize: none;
+}
+
+.head-btn {
+  /* position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background-color: #24a1d6;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+  cursor: pointer;
+  outline: none; */
+  float: right;
+  width: 2px;
+  position: absolute;
+  right: 18px;
+  bottom: 14px;
+  background-color: #24a1d6;
+  color: #fff;
+}
